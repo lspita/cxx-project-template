@@ -30,6 +30,7 @@
               clang-tools # must be before clang to have the correct clangd in PATH
               clang
               lldb
+              valgrind
             ];
             shellHook = ''
               set -a
