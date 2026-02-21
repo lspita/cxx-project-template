@@ -34,6 +34,7 @@
             shellHook = ''
               set -a
               source .env 2> /dev/null
+              PATH=$(realpath ./scripts):$PATH
               set +a
             '';
           };
